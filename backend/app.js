@@ -23,9 +23,6 @@ dns.setServers([
 //   .then(() => console.log('Connexion à MongoDB réussie !'))
 //   .catch(() => console.log('Connexion à MongoDB échouée !'));
 
-// mongoose.connect('mongodb+srv://dom971MongoDB:1234@cluster0.nmtspzs.mongodb.net/test?retryWrites=true&w=majority') 
-//   .then(() => console.log('Connexion à MongoDB réussie !'))
-//   .catch(() => console.log('Connexion à MongoDB échouée !'));
 
 mongoose.connect(process.env.MONGODB_URI) 
   .then(() => console.log('Connexion à MongoDB réussie !'))
