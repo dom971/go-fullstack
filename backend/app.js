@@ -8,10 +8,10 @@ const mongoose = require('mongoose');
 
 const Thing = require('./models/Thing');
 
-const dns = require('node:dns')
-dns.setServers([
-  '8.8.8.8',
-]);
+// const dns = require('node:dns')
+// dns.setServers([
+//   '8.8.8.8',
+// ]);
 
 //https://www.reddit.com/r/node/comments/1qg5o7e/node_process_unable_to_perform_dns_queries_on/
 
